@@ -121,3 +121,45 @@ h1{
   writing-mode: vertical-rl;
   /* right: -50; */
 }
+
+/* Service */
+
+.good-at{
+  margin-top: 150px;
+  margin-left: 250px;
+  /* margin-right: 65px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.good-head{
+  margin-left: 248px;
+}
+.good-head p{
+  font-family: inter;
+  font-size: 105px;
+  inline-size: 106;
+  text-align: right;
+  line-height: 106px;
+  color: #DFFE02;
+}
+.good-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 58px;
+}
+.good-list li{
+  font-family: inter;
+  font-size: 41px;
+  list-style-type: none;
+}
+.good-list span{
+  font-weight: 200;
+  margin-right:  40px;
+}
+.p-good{
+  margin-left: 430px;
+  writing-mode: vertical-rl;
+  /* right: -50; */
+}
