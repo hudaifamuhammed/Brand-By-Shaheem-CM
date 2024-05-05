@@ -55,8 +55,10 @@ a {
   font-weight: 500;
   padding: 0%;
 }
-.nav-items a{
+.nav-a{
   text-decoration: none;
+}
+.nav-items a{
   position: relative;
 }
 a::after{
@@ -118,6 +120,7 @@ h1{
   font-size: 20px;
 }
 .p-about{
+  margin-left: -35px;
   writing-mode: vertical-rl;
   /* right: -50; */
 }
@@ -127,13 +130,12 @@ h1{
 .good-at{
   margin-top: 150px;
   margin-left: 250px;
-  /* margin-right: 65px; */
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .good-head{
-  margin-left: 248px;
+  margin-left: 54px;
 }
 .good-head p{
   font-family: inter;
@@ -153,13 +155,51 @@ h1{
   font-family: inter;
   font-size: 41px;
   list-style-type: none;
+  font-weight: 400;
 }
 .good-list span{
   font-weight: 200;
   margin-right:  40px;
 }
 .p-good{
-  margin-left: 430px;
+  margin-left: 300px;
   writing-mode: vertical-rl;
   /* right: -50; */
+}
+.logo-round{
+  margin-left: 1270px;
+  margin-top: -50;
+}
+
+/* My Works */
+
+.works{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.work-head p{
+  margin-left: 1243px;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+.work-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.show-more{
+  display: flex;
+  margin-left: 1048px;
+  margin-top: 40px;
+  gap: 10px;
+}
+.show-more p{
+  font-family: inter;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 28px;
 }
