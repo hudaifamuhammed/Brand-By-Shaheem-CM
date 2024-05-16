@@ -203,3 +203,175 @@ h1{
   font-weight: 400;
   margin-top: 28px;
 }
+
+/* Testimonials */
+
+.happy-clients{
+  margin-top: 150px;
+  align-items: center;
+}
+.client-content{
+  margin-left: 150px;
+  color: #DFFE02;
+  font-family: inter;
+  font-size: 84px;
+  font-weight: 400;
+}
+.happy-client-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+}
+.client-card{
+  width: 363px;
+  height: 241px;
+  border-radius: 40px;
+  background-color: #686869;
+  justify-content: center;
+  align-items: center;
+}
+.client-card{
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.coma{
+  margin-top: -30px;
+  margin-left: 250px;
+}
+.client-card-top {
+  margin-top: -15px;
+  display: flex;
+  margin-left: 15px;
+  gap: 10px;
+}
+.client-card-top img{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.client-card-top h4{
+  margin-top: 35px;
+  font-family: inter;
+  font-size: 17px;
+  font-weight: 700;
+  color: #DFFE02;
+}
+.client-card-top span{
+  font-family: inter;
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+}
+.client-card-text{
+  margin-top: 20px;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+.client-card-text p{
+  font-family: inter;
+  font-size: 15px;
+  font-weight: 400;
+  width: 90%;
+}
+
+/* Contact */
+
+.cntct{
+  height: 405px;
+  width: 1049px;
+  background-color: #DFFE02;
+  border-radius: 57px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 330px;
+}
+.cnt-head {
+  padding-top: 44px;
+  margin-top: 67px;
+  margin-left: 53px;
+  font-family: inter;
+  font-size: 49px;
+  font-weight: 600;
+  color: #303030;
+  line-height: 55px;
+}
+.cnt-div{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-top: 10px;
+}
+.lets{
+  height: 56px;
+  width: 172px;
+  background-color: #303030;
+  border-radius: 55px;
+  margin-left: 53px;
+  justify-content: center;
+  align-items: center;
+}
+.lets p{
+  margin: 10px;
+  color: #DFFE02;
+  font-family: inter;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.phone{
+  height: 56px;
+  width: 234px;
+  border: #303030 solid 1px;
+  border-radius: 55px;
+}
+.phone p{
+  margin-top: 10px;
+  font-family: inter;
+  font-size: 21px;
+  font-weight: 500;
+  color: #303030;
+  text-align: center;
+}
+.qst-div{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-top: 10px;
+}
+.ask{
+  height: 56px;
+  width: 425px;
+  border: #303030 solid 1px;
+  border-radius: 55px;
+  margin-left: 55px;
+}
+.ask p{
+  font-family: inter;
+  font-size: 19px;
+  font-weight: 400;
+  color: #303030;
+  opacity: 59%;
+  margin-top: 10px;
+  margin-left: 28px;
+}
+.snd button{
+  height: 56px;
+  width: 134px;
+  border-radius: 55px;
+  background-color: #303030;
+}
+.snd p{
+  font-family: inter;
+  font-size: 21px;
+  font-weight: 500;
+  color: #DFFE02;
+  margin-top: 10px;
+}
+.img{
+  margin-top: -674px;
+  margin-left: 420px;
+}
