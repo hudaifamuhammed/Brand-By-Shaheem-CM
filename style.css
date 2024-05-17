@@ -16,6 +16,20 @@
   opacity: 6%;
   margin-bottom: -1130px;
 }
+.bg-2{
+  background-image: url('./Assets/Component\ bg\ 2.png');
+  background-repeat: no-repeat;
+  height: 787px;
+  margin-left: 390px;
+  margin-top: -280px;
+}
+.bg-3{
+  background-image: url('./Assets/Component\ bg\ 3.png');
+  background-repeat: no-repeat;
+  height: 590px;
+  margin-left: 390px;
+  margin-top: -480px;
+}
 body{
   background-color: #303030;
   color: white;
@@ -210,7 +224,7 @@ h1{
 /* Testimonials */
 
 .happy-clients{
-  margin-top: 150px;
+  margin-top: -380px;
   align-items: center;
 }
 .client-content{
