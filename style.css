@@ -35,8 +35,8 @@ body{
   color: white;
 }
 a {
-  text-decoration: none;
   color:white;
+  text-decoration: none;
 }
 
 /*   Nav Bar   */
@@ -47,7 +47,7 @@ a {
 .nav-bar{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 .nav-logo{
   margin-left: 119px;
@@ -72,11 +72,8 @@ a {
   font-weight: 500;
   padding: 0%;
 }
-.nav-a{
-  text-decoration: none;
-}
 .nav-items a{
-  position: relative;
+  text-decoration: none;
 }
 a::after{
   content: "";
@@ -91,16 +88,38 @@ a::after{
 a:hover::after{
   width: 100%;
 }
+
+@media (max-width:440px) {
+  .nav-logo {
+    margin-left: 37px;
+  }
+  .nav-logo img{
+    width: 55px;
+    height: 33.19px;
+    margin-left: 0px;
+  }
+  .nav-items{
+    position: fixed;
+    background-color: #DFFE02;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .nav-items a{
+    margin: 40px 0px;
+    color: #303030;
+  }
+}
 /*   Home   */
 
 .head-1{
   margin-top: 260px;
-  margin-left: 328px;
-  margin-right: 331px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-content: center;
 }
 h1{
   font-family: Bebas Neue, sans-serif;
@@ -116,6 +135,16 @@ h1{
   font-family: inter;
   font-weight: 400;
   font-size: 36px
+}
+@media (max-width:440px){
+  h1{
+    font-size: 52px;
+    font-weight: 400;
+  }
+  .p-h{
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
 /*   About Me   */
@@ -140,6 +169,31 @@ h1{
   margin-left: -35px;
   writing-mode: vertical-rl;
   /* right: -50; */
+}
+@media (max-width:440px){
+  .about-me{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+  .about-pic img{
+    width: 432px;
+    height: 432px;
+  }
+  .about-cntnt{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-head img{
+    height: 87px;
+    width: 316px;
+  }
+  .about-p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 33px;
+  }
 }
 
 /* Service */
@@ -187,6 +241,35 @@ h1{
   margin-left: 1270px;
   margin-top: -50;
 }
+@media (max-width:440px){
+  .good-at{
+    margin-top: 10px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .good-head p{
+    font-size: 63px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 62px;
+    margin-left: -160px;
+  }
+  .good-list{
+    justify-content: center;
+    padding-top: 60px;
+    margin-left: 0;
+  }
+  .good-list li{
+    font-size: 27px;
+  }
+  .logo-round{
+    height: 132px;
+    width: 132px;
+    margin-top: -1310px;
+    margin-left: 250px;
+  }
+}
 
 /* My Works */
 
@@ -195,6 +278,16 @@ h1{
   display: flex;
   flex-direction: column;
 }
+.work-card{
+  margin-left: 120px;
+  width: 1250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-content: center;
+}
 .work-head p{
   margin-left: 1243px;
   font-family: inter;
@@ -202,11 +295,46 @@ h1{
   font-weight: 500;
 }
 .work-img{
+  height: 387px;
+  width: 388px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 25px;
+  position: relative;
+}
+.content-wrk-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 48px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content-wrk-img:hover{
+  opacity: 1;
+}
+.cntnt-img{
+  margin-left: 10px;
+  margin-top: 305px;
+  width: 71px;
+  height: 71px;
+}
+.cntnt-p{
+  font-family: inter;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 310px;
+  padding-left: 60px;
 }
 .show-more{
   display: flex;
@@ -352,6 +480,7 @@ h1{
   font-weight: 500;
   color: #303030;
   text-align: center;
+  text-decoration: none;
 }
 .qst-div{
   display: flex;
@@ -428,3 +557,4 @@ h1{
 .fa-brands{
   font-size: 35px;
 }
+
