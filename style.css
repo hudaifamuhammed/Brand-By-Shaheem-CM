@@ -90,6 +90,9 @@ a:hover::after{
 }
 
 @media (max-width:440px) {
+  .nav-class{
+    margin-top: 0px;
+  }
   .nav-logo {
     margin-left: 37px;
   }
@@ -98,14 +101,14 @@ a:hover::after{
     height: 33.19px;
     margin-left: 0px;
   }
-  .nav-items{
+  /* .nav-items{
     position: fixed;
     background-color: #DFFE02;
     height: 100vh;
     width: 100%;
     display: block;
     text-align: center;
-  }
+  } */
   .nav-items a{
     margin: 40px 0px;
     color: #303030;
@@ -137,6 +140,9 @@ h1{
   font-size: 36px
 }
 @media (max-width:440px){
+  .head-1{
+    margin-top: 130px;
+  }
   h1{
     font-size: 52px;
     font-weight: 400;
@@ -176,6 +182,7 @@ h1{
     flex-direction: column-reverse;
     margin-left: 20px;
     margin-right: 40px;
+    padding-bottom: 60px;
   }
   .about-pic img{
     width: 432px;
@@ -184,6 +191,7 @@ h1{
   .about-cntnt{
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
   }
   .about-head img{
     height: 87px;
@@ -193,6 +201,10 @@ h1{
     font-size: 16px;
     font-weight: 500;
     margin-left: 33px;
+    margin-right: 30px;
+  }
+  .p-about{
+    display: none;
   }
 }
 
@@ -242,6 +254,9 @@ h1{
   margin-top: -50;
 }
 @media (max-width:440px){
+  .good-head{
+    margin-left: 0px;
+  }
   .good-at{
     margin-top: 10px;
     margin-left: 0;
@@ -258,7 +273,7 @@ h1{
   .good-list{
     justify-content: center;
     padding-top: 60px;
-    margin-left: 0;
+    margin-left: -60px;
   }
   .good-list li{
     font-size: 27px;
@@ -266,8 +281,11 @@ h1{
   .logo-round{
     height: 132px;
     width: 132px;
-    margin-top: -1310px;
+    margin-top: -1150px;
     margin-left: 250px;
+  }
+  .p-good{
+    display: none;
   }
 }
 
@@ -347,6 +365,59 @@ h1{
   font-size: 24px;
   font-weight: 400;
   margin-top: 28px;
+}
+@media (max-width:440px){
+  .work-head{
+    display: none;
+  }
+  .work-card{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 40px;
+    gap: 0;
+  }
+  .work-img{
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+  .work-img img{
+    width: 329px;
+    height: 328px;
+    position: relative;
+  }
+  .content-wrk-img {
+    width: 329px;
+    height: 328px;
+    border-radius: 40px;
+    position: absolute;
+  }
+  .content-wrk-img:hover{
+    opacity: 1;
+  }
+  .content-wrk-img img{
+    margin-left: 10px;
+    margin-top: 260px;
+    width: 60px;
+    height: 60px;
+  }
+  .cntnt-p{
+    font-family: inter;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 250px;
+    padding-left: 27px;
+  }
+  .show-more{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 0;
+  }
+  .show-more p{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: inter;
+  }
 }
 
 /* Testimonials */
