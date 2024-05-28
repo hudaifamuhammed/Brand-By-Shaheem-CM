@@ -412,11 +412,22 @@ h1{
     display: flex;
     flex-direction: row-reverse;
     margin-left: 0;
+    align-items: flex-start;
+    justify-content: center;
   }
   .show-more p{
     font-size: 28px;
     font-weight: 400;
     font-family: inter;
+    line-height: 30px;
+    margin-top: 0;
+  }
+  .show-more p span{
+    display: block;
+  }
+  .show-more img{
+    width: 75px;
+    height: 75px;
   }
 }
 
@@ -491,6 +502,61 @@ h1{
   font-size: 15px;
   font-weight: 400;
   width: 90%;
+}
+@media (max-width:440px){
+  .happy-client-card{
+    gap: 15px;
+    margin-left: 420px;
+  }
+  .client-content p{
+    font-size: 48px;
+    font-family: inter;
+    font-weight: 400;
+    line-height: 56px;
+  }
+  .client-content{
+    margin-left: 40px;
+  }
+  .client-card{
+    width: 245px;
+    height: 169px;
+    border-radius: 38px;
+  }
+  .client-card-top{
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  .client-card-top h4{
+    font-size: 12px;
+    font-family: inter;
+    font-weight: 700;
+    margin-top: 25px;
+  }
+  .client-card-top span{
+    font-size: 8px;
+    font-family: inter;
+    font-weight: 400;
+  }
+  .client-card-top img{
+    margin-left: 8px;
+    margin-top: 13px;
+    width: 42px;
+    height: 42px;
+  }
+  .client-card-text{
+    margin-top: 9px;
+  }
+  .client-card-text p{
+    font-size: 11px;
+    font-family: inter;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .coma{
+    height: 18px;
+    width: 25px;
+  }
 }
 
 /* Contact */
