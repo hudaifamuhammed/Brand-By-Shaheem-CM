@@ -658,6 +658,77 @@ h1{
   margin-top: -674px;
   margin-left: 420px;
 }
+@media (max-width:440px){
+  .cntct{
+    height: 252px;
+    width: 335px;
+    border-radius: 38px;
+  }
+  .cnt-head{
+    font-size: 29px;
+    font-family: inter;
+    font-weight: 600;
+    line-height: 32px;
+    padding-top: 15px;
+    margin-left: 29px;
+  }
+  .lets{
+    width: 98px;
+    height: 38px;
+    margin-left: 29px;
+  }
+  .cnt-div{
+    gap: 8px;
+  }
+  .lets p{
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 500;
+    text-align: center;
+  }
+  .phone{
+    width: 167px;
+    height: 38px;
+  }
+  .phone p{
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 500;
+  }
+  .ask{
+    width: 273px;
+    height: 37px;
+    margin-left: 29px;
+    border-radius: 55px;
+  }
+  .ask p{
+    font-size: 13px;
+    font-family: inter;
+    font-weight: 400;
+    text-align: left;
+  }
+  .snd button{
+    width: 72px;
+    height: 37px;
+    border-radius: 18.5px;
+    margin-left: -75px;
+  }
+  .snd p{
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 600;
+  }
+  .img img{
+    position: absolute;
+    width: 299px;
+    height: 299px;
+    z-index: -6;
+  }
+  .img{
+    margin-top: -465px;
+    margin-left: 95px;
+  }
+}
 
 /* Footer */
 
