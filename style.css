@@ -12,7 +12,7 @@
 }
 .top-bg{
   height: 1137px;
-  background-image: url('./Assets/Component\ 1.png');
+  /* background-image: url('./Assets/Component\ 1.png'); */
   opacity: 6%;
   margin-bottom: -1130px;
 }
@@ -24,23 +24,29 @@
   margin-top: -280px;
 }
 .bg-3{
-  background-image: url('./Assets/Component\ bg\ 3.png');
+  /* background-image: url('./Assets/Component\ bg\ 3.png'); */
   background-repeat: no-repeat;
   height: 590px;
   margin-left: 390px;
   margin-top: -480px;
 }
-@media (max-width:440px){
-  .top-bg{
 
+@media (max-width:440px){
+  .top-bg img{
+    width: 933px;
+    height: 640px;
   }
   .bg-2{
     display: none;
   }
   .bg-3{
-    height: 590px;
-    margin-left: -310px;
-    margin-top: -377px;
+    margin-left: -40px;
+    margin-top: -135px;
+    margin-bottom: 300px;
+  }
+  .bg-3 img{
+    height: 250px;
+    width: 500px;
   }
 }
 body{
@@ -447,7 +453,8 @@ h1{
 /* Testimonials */
 
 .happy-clients{
-  margin-top: -380px;
+  margin-top: -38
+  0px;
   align-items: center;
 }
 .client-content{
@@ -529,6 +536,7 @@ h1{
   }
   .client-content{
     margin-left: 40px;
+    margin-top: 120px;
   }
   .client-card{
     width: 245px;
