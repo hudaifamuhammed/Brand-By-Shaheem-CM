@@ -41,8 +41,8 @@
   }
   .bg-3{
     margin-left: -40px;
-    margin-top: -135px;
-    margin-bottom: 300px;
+    margin-top: -100px;
+    height: 0px;
   }
   .bg-3 img{
     height: 250px;
@@ -578,6 +578,37 @@ h1{
     height: 18px;
     width: 25px;
   }
+  .dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 5px;
+  }
+  .dot{
+    height: 9px;
+    width: 9px;
+    border-radius: 100px;
+    border: 1px solid #686869;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .dot:hover{
+    position: relative;
+    height: 13px;
+    width: 13px;
+    background-color: #DFFE02;
+    border: none;
+  }
+  #c1:checked ~ .cc1{
+    margin-left: 0;
+  }
+  #c2:checked ~ .cc2{
+    margin-left: -50%;
+  }
+  #c3:checked ~ .cc3{
+    margin-left: -100%;
+  }
 }
 
 /* Contact */
@@ -684,6 +715,7 @@ h1{
     height: 252px;
     width: 335px;
     border-radius: 38px;
+    margin-top: 255px;
   }
   .cnt-head{
     font-size: 29px;
