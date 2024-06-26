@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./Assets/Logo Round.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 
     <!-- FontAwesome -->
@@ -11,6 +12,7 @@
     <link 
     rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap -->
 
@@ -28,22 +30,35 @@
 
     <!-- Nav Bar -->
 
-    <nav class="nav-class">
-        <div class="nav-bar">
-          <div class="nav-header">
-            <div class="nav-logo">
-              <a href="#"><img src="./Assets/Top Logo.png" alt="" /></a>
-            </div>
-          </div>
-          <div class="nav-links nav-items">
-              <p class="menu">MENU</p>
-              <a class="nav-a" href="#about">ABOUT ME</a>
-              <a class="nav-a" href="#good-at">SERVICES</a>
-              <a class="nav-a" href="#myworks">MY WORKS</a>
-              <a class="nav-a" href="#contact">CONTACT</a>
-              <div class="round-img"><img src="./Assets/Logo Round Nav Bar.png" alt=""></div>
-          </div>
-        </div>
+    <nav class="navbar">
+      <a href="#" class="nav-branding"><img src="./Assets/Top Logo.png" alt=""></a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <span class="menu">MENU</span>
+          <a href="#about" class="nav-link">ABOUT ME</a>
+          <a href="#good-at" class="nav-link">SERVICES</a>
+          <a href="#myworks" class="nav-link">MY WORKS</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+          <img src="./Assets/Logo Round Nav Bar.png" class="logo-nav">
+        </li>
+        
+        <!-- <li class="nav-item">
+          <a href="#about" class="nav-link">ABOUT ME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#good-at" class="nav-link">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a href="#myworks" class="nav-link">MY WORKS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </li> -->
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
     </nav>
 
@@ -251,5 +266,6 @@
       
     </section>
     <div class="bg-3"><img src="./Assets/Component bg 3.png" ></div>
+    <script src="./main.js"></script>
   </body>
 </html>
