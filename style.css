@@ -520,7 +520,82 @@ h1{
 
 /* Testimonials */
 
-.happy-clients{
+.container{
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+.section-header{
+  text-align: left;
+  margin-bottom: 50px;
+}
+.section-header .title{
+  font-family: inter;
+  font-size: 84px;
+  font-weight: 400;
+  color: #DFFE02;
+}
+.testimonials{
+  padding: 100px 0;
+}
+.testimonials-item{
+  background-color: #686869;
+  padding: 30px;
+  border-radius: 30px;
+}
+.testimonials-item .info{
+  display: flex;
+  align-items: center;
+}
+.coma{
+  margin-top: -85px;
+  margin-left: 150px;
+}
+.testimonials-item img{
+  max-width: 80px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.testimonials-item .name{
+  font-family: inter;
+  font-size: 17px;
+  font-weight: 700;
+  color: #DFFE02;
+  line-height: 0.2;
+}
+.testimonials-item .job{
+  font-family: inter;
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+}
+.testimonials-item p{
+  margin-top: 20px;
+  color: white;
+  font-family: inter;
+  font-size: 15px;
+  font-weight: 400;
+}
+.testimonials .swiper-pagination{
+  position: relative;
+  margin-top: 40px;
+  bottom: auto;
+}
+.testimonials .swiper-pagination-bullet{
+  height: 12px;
+  width: 12px;
+  background-color: #DFFE02;
+}
+@media (max-width:440px){
+  .section-header .title{
+    font-family: inter;
+    font-size: 48px;
+    font-weight: 400;
+    color: #DFFE02;
+  }
+}
+
+/* .happy-clients{
   margin-top: -38
   0px;
   align-items: center;
@@ -677,7 +752,7 @@ h1{
   #c3:checked ~ .cc3{
     margin-left: -100%;
   }
-}
+} */
 
 /* Contact */
 

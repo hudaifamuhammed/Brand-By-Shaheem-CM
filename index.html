@@ -20,9 +20,13 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"/>
 
-      <!-- CSS -->
+    <!-- CSS -->
 
     <link rel="stylesheet" href="./style.css" />
+    <!-- Swiper Slide Bar -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   </head>
   <body>
@@ -41,19 +45,6 @@
           <a href="#contact" class="nav-link">CONTACT</a>
           <img src="./Assets/Logo Round Nav Bar.png" class="logo-nav">
         </li>
-        
-        <!-- <li class="nav-item">
-          <a href="#about" class="nav-link">ABOUT ME</a>
-        </li>
-        <li class="nav-item">
-          <a href="#good-at" class="nav-link">SERVICES</a>
-        </li>
-        <li class="nav-item">
-          <a href="#myworks" class="nav-link">MY WORKS</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">CONTACT</a>
-        </li> -->
       </ul>
       <div class="hamburger">
         <span class="bar"></span>
@@ -166,8 +157,52 @@
     <div class="bg-2"></div>
 
   <!-- Testimonial -->
-
-    <section class="happy-clients">
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">Happy<br>client stories/</h2>
+        </div>
+        <div class="testimonials-content">
+          <div class="swiper testimonials-slider js-testimonials-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide testimonials-item">
+                <!-- <img src="./Assets/coma.png" class="coma"> -->
+                <div class="info">
+                  <img src="./Assets/Client 1.png" alt="">
+                  <div class="text-box">
+                    <h3 class="name">Mohammed Dilshad</h3>
+                    <span class="job">FOUNDER & CEO, KEVA BOX</span>
+                  </div>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  <img src="./Assets/Client 1.png" alt="">
+                  <div class="text-box">
+                    <h3 class="name">Mohammed Dilshad</h3>
+                    <span class="job">FOUNDER & CEO, KEVA BOX</span>
+                  </div>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  <img src="./Assets/Client 1.png" alt="">
+                  <div class="text-box">
+                    <h3 class="name">Mohammed Dilshad</h3>
+                    <span class="job">FOUNDER & CEO, KEVA BOX</span>
+                  </div>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination js-testimonials-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="happy-clients">
       <div class="client-content">
         <p>Happy<br>Client Stories/</p>
       </div>
@@ -211,7 +246,7 @@
         <div class="dot" id="c2"></div>
         <div class="dot" id="c3"></div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
 
@@ -266,6 +301,7 @@
       
     </section>
     <div class="bg-3"><img src="./Assets/Component bg 3.png" ></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
